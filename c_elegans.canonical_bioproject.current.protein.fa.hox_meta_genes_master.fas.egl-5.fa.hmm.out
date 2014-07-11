@@ -1,0 +1,1089 @@
+# hmmsearch :: search profile(s) against a sequence database
+# HMMER 3.1b1 (May 2013); http://hmmer.org/
+# Copyright (C) 2013 Howard Hughes Medical Institute.
+# Freely distributed under the GNU General Public License (GPLv3).
+# - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+# query HMM file:                  hox_meta_genes_master.fas.egl-5.fa.hmm
+# target sequence database:        c_elegans.canonical_bioproject.current.protein.fa
+# - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+
+Query:       hox_meta_genes_master.fas.egl-5  [M=81]
+Scores for complete sequences (score includes all domains):
+   --- full sequence ---   --- best 1 domain ---    -#dom-
+    E-value  score  bias    E-value  score  bias    exp  N  Sequence   Description
+    ------- ------ -----    ------- ------ -----   ---- --  --------   -----------
+    4.1e-45  151.9   7.5    6.1e-45  151.3   7.5    1.3  1  C08C3.1a    CE29076	WBGene00001174	locus:egl-5	Homeobox prote
+    2.2e-43  146.4   5.5    3.2e-43  145.8   5.5    1.3  1  C08C3.1c    CE34523	WBGene00001174	locus:egl-5	Homeobox prote
+    2.2e-43  146.3   5.5    3.2e-43  145.8   5.5    1.3  1  C08C3.1b    CE32792	WBGene00001174	locus:egl-5	Homeobox prote
+    2.7e-14   53.1   3.2      6e-14   52.0   3.2    1.5  1  Y75B8A.1    CE28148	WBGene00004024	locus:php-3	status:Confirm
+    1.3e-11   44.6   5.6    2.2e-11   43.8   5.6    1.4  1  C08C3.3     CE25765	WBGene00003102	locus:mab-5	Homeobox prote
+      3e-11   43.4   0.3    3.5e-11   43.1   0.3    1.1  1  F16H11.4    CE04399	WBGene00000428	locus:ceh-1	Homeobox prote
+    3.2e-11   43.3   0.7    5.1e-11   42.6   0.7    1.3  1  Y75B8A.2b   CE29010	WBGene00003779	locus:nob-1	status:Confirm
+    1.6e-10   41.0   0.3    2.8e-10   40.3   0.3    1.3  1  C07H6.7     CE03975	WBGene00003024	locus:lin-39	Homeobox prot
+    2.5e-10   40.4   2.2    3.9e-10   39.8   2.2    1.3  1  F46F3.1b    CE46770	WBGene00000449	locus:ceh-27	status:Confir
+    8.5e-10   38.7   1.3    1.5e-09   37.9   1.3    1.3  1  F29F11.5b   CE40611	WBGene00000445	locus:ceh-22	status:Confir
+    9.2e-10   38.6   4.0    1.8e-09   37.7   4.0    1.4  1  F46F3.1a    CE36695	WBGene00000449	locus:ceh-27	status:Partia
+    1.5e-09   38.0   1.8    2.7e-09   37.1   1.4    1.6  1  F29F11.5c   CE40612	WBGene00000445	locus:ceh-22	status:Partia
+    1.7e-09   37.7   1.4    3.7e-09   36.7   1.4    1.5  1  F29F11.5a   CE05771	WBGene00000445	locus:ceh-22	Homeobox prot
+    1.3e-08   34.9   0.1    2.2e-08   34.2   0.1    1.3  1  M142.4      CE12432	WBGene00006873	locus:vab-7	Homeobox prote
+    6.6e-08   32.7   1.3    8.4e-08   32.3   1.3    1.1  1  R03C1.3b    CE33290	WBGene00000584	locus:cog-1	status:Confirm
+    9.6e-08   32.1   3.3    1.5e-07   31.5   3.3    1.3  1  R13A5.5     CE28767	WBGene00000437	locus:ceh-13	Homeobox prot
+    1.2e-07   31.9   2.9    1.2e-07   31.9   2.9    1.7  1  F33D11.4    CE09894	WBGene00000436	locus:ceh-12	Homeobox prot
+    1.2e-07   31.8   5.5    2.8e-07   30.7   5.5    1.6  1  K03A11.3    CE42603	WBGene00000450	locus:ceh-28	status:Partia
+    1.2e-07   31.8   0.7    2.6e-07   30.8   0.7    1.5  1  F58E6.10d   CE48350	WBGene00006778	locus:unc-42	status:Partia
+    1.8e-07   31.3   1.2    2.1e-07   31.1   1.2    1.1  1  C34C6.8     CE08568	WBGene00000432	locus:ceh-7	Homeobox prote
+    1.8e-07   31.3   3.6    1.8e-07   31.3   3.6    1.5  1  C38D4.6c    CE44166	WBGene00003912	locus:pal-1	Homeobox prote
+    1.8e-07   31.3   1.2    3.2e-07   30.5   1.2    1.4  1  C02F12.10   CE40680	WBGene00045215	locus:ceh-63	status:Confir
+    1.8e-07   31.2   0.7    3.9e-07   30.2   0.7    1.5  1  F58E6.10a   CE39164	WBGene00006778	locus:unc-42	status:Partia
+    1.9e-07   31.2   0.6      3e-07   30.5   0.6    1.3  1  C13G5.1     CE37477	WBGene00000439	locus:ceh-16	Homeobox prot
+    2.5e-07   30.8   1.4    4.1e-07   30.1   1.4    1.3  1  F31E8.3     CE01930	WBGene00006380	locus:tab-1	status:Partial
+    2.5e-07   30.8   3.6    2.5e-07   30.8   3.6    1.5  1  C38D4.6b    CE05383	WBGene00003912	locus:pal-1	Homeobox prote
+    2.6e-07   30.8   3.6    2.6e-07   30.8   3.6    1.5  1  C38D4.6a    CE27837	WBGene00003912	locus:pal-1	Homeobox prote
+    2.7e-07   30.7   0.7      4e-07   30.2   0.7    1.2  1  M6.3        CE37657	WBGene00004011	locus:pha-2	status:Confirm
+    3.1e-07   30.5   2.1    6.2e-07   29.5   2.1    1.5  1  F58E6.10e   CE48409	WBGene00006778	locus:unc-42	status:Partia
+    3.9e-07   30.2   1.5    8.2e-07   29.2   1.5    1.5  1  R03C1.3a    CE25964	WBGene00000584	locus:cog-1	status:Confirm
+    4.6e-07   30.0   2.1      9e-07   29.0   2.1    1.4  1  F58E6.10b   CE48141	WBGene00006778	locus:unc-42	status:Partia
+    4.7e-07   29.9   5.0    8.6e-07   29.1   5.0    1.4  1  R07B1.1     CE01626	WBGene00006881	locus:vab-15	Homeobox prot
+    5.4e-07   29.7   1.9    9.3e-07   29.0   1.9    1.3  1  Y75B8A.2a   CE29009	WBGene00003779	locus:nob-1	status:Confirm
+    5.9e-07   29.6   3.6    1.1e-06   28.7   3.6    1.4  1  F55B12.1    CE25006	WBGene00000447	locus:ceh-24	Homeobox prot
+      6e-07   29.6   0.5      1e-06   28.9   0.2    1.5  1  C16C2.1     CE40300	WBGene00000430	locus:ceh-5	Homeobox prote
+    6.7e-07   29.4   2.5    1.2e-06   28.6   2.5    1.3  1  C28A5.4     CE05325	WBGene00000463	locus:ceh-43	Homeobox prot
+    6.7e-07   29.4   2.1    2.1e-06   27.8   2.1    1.8  1  W03A3.1     CE07563	WBGene00000435	locus:ceh-10	Homeobox prot
+    8.4e-07   29.1   8.2    1.4e-06   28.4   8.0    1.4  1  F20D12.6a   CE31687	WBGene00000442	locus:ceh-19	Homeobox prot
+      9e-07   29.0   5.6    1.3e-06   28.6   5.6    1.2  1  Y65B4BR.9   CE36343	WBGene00000434	locus:ceh-9	Homeobox prote
+    9.6e-07   28.9   4.7    1.6e-06   28.2   4.7    1.3  1  C09G12.1    CE48554	WBGene00015651	locus:ceh-53	status:Confir
+    1.1e-06   28.7   8.0    2.3e-06   27.7   8.0    1.5  1  C39E6.4     CE30891	WBGene00003377	locus:mls-2	status:Partial
+    1.8e-06   28.1   8.0    4.2e-06   26.9   7.9    1.7  1  F20D12.6b   CE04436	WBGene00000442	locus:ceh-19	Homeobox prot
+      2e-06   27.9   3.0    3.7e-06   27.0   3.0    1.4  1  ZK993.1b    CE49173	WBGene00022837	locus:ceh-45	status:Confir
+    4.2e-06   26.9   0.7    7.7e-06   26.0   0.7    1.4  1  C33D12.1    CE42831	WBGene00000452	locus:ceh-31	Homeobox prot
+    6.1e-06   26.4   3.0    1.1e-05   25.6   3.0    1.4  1  ZK993.1a    CE23489	WBGene00022837	locus:ceh-45	status:Confir
+    1.1e-05   25.5   5.7    1.7e-05   24.9   5.7    1.3  1  ZK652.5     CE00451	WBGene00000446	locus:ceh-23	Homeobox prot
+    1.9e-05   24.8   1.0    3.2e-05   24.0   1.0    1.3  1  C33D12.7    CE42074	WBGene00000451	locus:ceh-30	Homeobox prot
+    2.8e-05   24.3   0.2    5.2e-05   23.4   0.2    1.4  1  C27A12.5    CE20530	WBGene00000429	locus:ceh-2	status:Confirm
+    3.3e-05   24.0   0.3    6.1e-05   23.1   0.3    1.4  1  F01D4.6c    CE42646	WBGene00003167	locus:mec-3	status:Confirm
+    3.7e-05   23.9   0.3    7.9e-05   22.8   0.3    1.5  1  F01D4.6a    CE27422	WBGene00003167	locus:mec-3	Mechanosensory
+      4e-05   23.7   1.4    8.9e-05   22.6   1.4    1.6  1  R08B4.2     CE03536	WBGene00044330	locus:alr-1	status:Partial
+    4.7e-05   23.5   2.0    0.00012   22.2   2.0    1.7  1  D1007.1     CE09036	WBGene00000440	locus:ceh-17	status:Confir
+    8.7e-05   22.7   2.9    0.00016   21.8   2.9    1.4  1  R06F6.6     CE01622	WBGene00011069	locus:ceh-62	Uncharacteriz
+    0.00038   20.6   1.4    0.00067   19.8   1.4    1.4  1  ZK265.4     CE38130	WBGene00000433	locus:ceh-8	Homeobox prote
+    0.00053   20.2   2.4     0.0013   18.9   2.4    1.8  1  Y80D3A.3    CE24675	WBGene00013583	locus:ceh-51	status:Partia
+    0.00076   19.6   0.2     0.0014   18.8   0.2    1.3  1  F26C11.2    CE01560	WBGene00006744	locus:unc-4	Homeobox prote
+    0.00085   19.5   1.8     0.0019   18.4   1.8    1.6  1  K03E6.1b    CE45007	WBGene00002988	locus:lim-6	status:Partial
+    0.00085   19.5   1.8     0.0019   18.4   1.8    1.5  1  K03E6.1a    CE44857	WBGene00002988	locus:lim-6	status:Partial
+      0.001   19.2   3.7       0.88    9.8   0.1    3.2  2  T21B4.17    CE38419	WBGene00044032	locus:ceh-99	status:Partia
+     0.0012   19.1   0.1      0.002   18.3   0.1    1.4  1  F27E5.2     CE35862	WBGene00003939	locus:pax-3	status:Partial
+     0.0016   18.6   0.7      0.003   17.7   0.7    1.4  1  F46C8.5     CE28335	WBGene00000438	locus:ceh-14	Homeobox prot
+     0.0017   18.5   2.0        1.4    9.2   0.1    2.3  2  F34D6.2     CE39574	WBGene00018022	locus:ceh-87	status:Partia
+     0.0018   18.4   0.3     0.0037   17.4   0.3    1.4  1  Y113G7A.6b  CE31091	WBGene00006652	locus:ttx-1	status:Partial
+     0.0019   18.4   0.3      0.004   17.3   0.3    1.5  1  Y113G7A.6c  CE43026	WBGene00006652	locus:ttx-1	status:Confirm
+     0.0023   18.1   0.3     0.0047   17.1   0.3    1.4  1  Y113G7A.6a  CE31090	WBGene00006652	locus:ttx-1	status:Partial
+     0.0023   18.1   0.0     0.0042   17.3   0.0    1.4  1  Y53C12C.1   CE14906	WBGene00013147	locus:eyg-1	status:Partial
+     0.0029   17.8   4.3       0.05   13.8   3.8    2.3  2  F14F3.1a    CE24899	WBGene00006870	locus:vab-3	status:Confirm
+  ------ inclusion threshold ------
+      0.011   15.9   0.2      0.038   14.2   0.1    1.9  1  B0564.10a   CE05183	WBGene00006766	locus:unc-30	Homeobox prot
+      0.013   15.7   4.0      0.022   15.0   4.0    1.4  1  F14F3.1b    CE28216	WBGene00006870	locus:vab-3	status:Confirm
+      0.015   15.5   4.0      0.026   14.7   4.0    1.3  1  F14F3.1c    CE28217	WBGene00006870	locus:vab-3	status:Confirm
+      0.018   15.3   0.1      0.039   14.2   0.1    1.5  1  B0564.10b   CE36087	WBGene00006766	locus:unc-30	Homeobox prot
+      0.027   14.7   3.0      0.027   14.7   3.0    2.0  2  T13C5.4     CE04945	WBGene00020485	locus:ceh-54	status:Partia
+      0.046   13.9   1.4       0.11   12.7   1.4    1.7  1  ZC64.4      CE25675	WBGene00002987	locus:lim-4	status:Confirm
+       0.14   12.4   6.6          2    8.7   0.5    3.8  3  ZC123.3e    CE49442	WBGene00022518	locus:zfh-2	status:Partial
+       0.15   12.3   0.4       0.34   11.1   0.4    1.6  1  ZC247.3     CE15150	WBGene00003000	locus:lin-11	Protein lin-1
+       0.18   12.0   8.4       0.32   11.2   8.4    1.5  1  C37E2.5     CE08624	WBGene00000458	locus:ceh-37	Homeobox prot
+       0.33   11.2   5.4       0.34   11.2   0.7    2.4  2  C04F1.3     CE17366	WBGene00002989	locus:lim-7	status:Partial
+
+
+Domain annotation for each sequence (and alignments):
+>> C08C3.1a  CE29076	WBGene00001174	locus:egl-5	Homeobox protein egl-5	status:Confirmed	UniProt:P17486	protein_id:CCD636
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !  151.3   7.5   1.7e-47   6.1e-45       1      80 [.     101     180 ..     101     181 .. 0.98
+
+  Alignments for each domain:
+  == domain 1  score: 151.3 bits;  conditional E-value: 1.7e-47
+  hox_meta_genes_master.fas.egl-5   1 awpnyasskkgrqtyqryqtSVLEskFqQSSYVskkQREELRLQTnLtDRQIKIwfqnrrmkakkekqrvedhtehtk 78 
+                                      awpnyasskkgrqtyqryqtSVLE+kFqQSSYVskkQREELRLQT+LtDRQIKIwfqnrrmkakkekqrv+dhteht+
+                         C08C3.1a 101 AWPNYASSKKGRQTYQRYQTSVLEAKFQQSSYVSKKQREELRLQTQLTDRQIKIWFQNRRMKAKKEKQRVDDHTEHTP 178
+                                      69**************************************************************************99 PP
+
+  hox_meta_genes_master.fas.egl-5  79 ll 80 
+                                      ll
+                         C08C3.1a 179 LL 180
+                                      76 PP
+
+>> C08C3.1c  CE34523	WBGene00001174	locus:egl-5	Homeobox protein egl-5	status:Confirmed	UniProt:P17486	protein_id:CCD636
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !  145.8   5.5     9e-46   3.2e-43       5      80 ..     108     183 ..     100     184 .. 0.95
+
+  Alignments for each domain:
+  == domain 1  score: 145.8 bits;  conditional E-value: 9e-46
+  hox_meta_genes_master.fas.egl-5   5 yasskkgrqtyqryqtSVLEskFqQSSYVskkQREELRLQTnLtDRQIKIwfqnrrmkakkekqrvedhtehtkll 80 
+                                       asskkgrqtyqryqtSVLE+kFqQSSYVskkQREELRLQT+LtDRQIKIwfqnrrmkakkekqrv+dhteht+ll
+                         C08C3.1c 108 FASSKKGRQTYQRYQTSVLEAKFQQSSYVSKKQREELRLQTQLTDRQIKIWFQNRRMKAKKEKQRVDDHTEHTPLL 183
+                                      489*********************************************************************9976 PP
+
+>> C08C3.1b  CE32792	WBGene00001174	locus:egl-5	Homeobox protein egl-5	status:Confirmed	UniProt:P17486	protein_id:CCD636
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !  145.8   5.5   9.1e-46   3.2e-43       5      80 ..     109     184 ..     101     185 .. 0.95
+
+  Alignments for each domain:
+  == domain 1  score: 145.8 bits;  conditional E-value: 9.1e-46
+  hox_meta_genes_master.fas.egl-5   5 yasskkgrqtyqryqtSVLEskFqQSSYVskkQREELRLQTnLtDRQIKIwfqnrrmkakkekqrvedhtehtkll 80 
+                                       asskkgrqtyqryqtSVLE+kFqQSSYVskkQREELRLQT+LtDRQIKIwfqnrrmkakkekqrv+dhteht+ll
+                         C08C3.1b 109 FASSKKGRQTYQRYQTSVLEAKFQQSSYVSKKQREELRLQTQLTDRQIKIWFQNRRMKAKKEKQRVDDHTEHTPLL 184
+                                      489*********************************************************************9976 PP
+
+>> Y75B8A.1  CE28148	WBGene00004024	locus:php-3	status:Confirmed	UniProt:Q9XW88	protein_id:CAA22081.2
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   52.0   3.2   1.7e-16     6e-14       6      71 ..     197     262 ..     192     269 .. 0.92
+
+  Alignments for each domain:
+  == domain 1  score: 52.0 bits;  conditional E-value: 1.7e-16
+  hox_meta_genes_master.fas.egl-5   6 asskkgrqtyqryqtSVLEskFqQSSYVskkQREELRLQTnLtDRQIKIwfqnrrmkakkekqrve 71 
+                                      + ++k+r+ y++ qt  LE++F    YVsk+ R EL     Lt RQ+KIwfqnrrmk kk+kqr++
+                         Y75B8A.1 197 HAMRKKRKPYTKAQTLELEKEFLYNTYVSKQKRWELAKYLHLTERQVKIWFQNRRMKDKKQKQRTS 262
+                                      56789999*******************************************************976 PP
+
+>> C08C3.3  CE25765	WBGene00003102	locus:mab-5	Homeobox protein mab-5	status:Confirmed	UniProt:P10038	protein_id:CCD6364
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   43.8   5.6   6.1e-14   2.2e-11       7      69 ..     116     178 ..     112     194 .. 0.92
+
+  Alignments for each domain:
+  == domain 1  score: 43.8 bits;  conditional E-value: 6.1e-14
+  hox_meta_genes_master.fas.egl-5   7 sskkgrqtyqryqtSVLEskFqQSSYVskkQREELRLQTnLtDRQIKIwfqnrrmkakkekqr 69 
+                                      +sk++rqty+r qt  LE++F    Y  +k R E+     Lt RQ+KIwfqnrrmk+kke + 
+                          C08C3.3 116 ESKRTRQTYSRSQTLELEKEFHYHKYLTRKRRQEISETLHLTERQVKIWFQNRRMKHKKEAKG 178
+                                      6899*******************************************************9875 PP
+
+>> F16H11.4  CE04399	WBGene00000428	locus:ceh-1	Homeobox protein ceh-1	status:Confirmed	UniProt:P53547	protein_id:CCD674
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   43.1   0.3     1e-13   3.5e-11      14      77 ..       7      70 ..       1      74 [. 0.86
+
+  Alignments for each domain:
+  == domain 1  score: 43.1 bits;  conditional E-value: 1e-13
+  hox_meta_genes_master.fas.egl-5 14 tyqryqtSVLEskFqQSSYVskkQREELRLQTnLtDRQIKIwfqnrrmkakkekqrvedhteht 77
+                                       +  q   LE+kF+ S Y s   R  L +Q +L+  Q+KIwfqnrr+k kk++   + +t +t
+                         F16H11.4  7 AFTYEQLVALENKFKTSRYLSVVERLNLAIQLQLSETQVKIWFQNRRTKWKKHNPGQDANTPQT 70
+                                     445566778*******************************************998888777665 PP
+
+>> Y75B8A.2b  CE29010	WBGene00003779	locus:nob-1	status:Confirmed	UniProt:G5EGL1	protein_id:CAC70124.1
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   42.6   0.7   1.4e-13   5.1e-11       3      71 ..     132     200 ..     130     207 .. 0.93
+
+  Alignments for each domain:
+  == domain 1  score: 42.6 bits;  conditional E-value: 1.4e-13
+  hox_meta_genes_master.fas.egl-5   3 pnyasskkgrqtyqryqtSVLEskFqQSSYVskkQREELRLQTnLtDRQIKIwfqnrrmkakkekqrve 71 
+                                         +  kk+rq y++ q S LE ++    Y   k R EL  Q  L  +Q+K+wfqnrrmk kk +qr++
+                        Y75B8A.2b 132 AISHDGKKKRQPYKKDQISRLEYEYSVNQYLTNKRRSELSAQLMLDEKQVKVWFQNRRMKDKKLRQRHS 200
+                                      5567789********************************************************999875 PP
+
+>> C07H6.7  CE03975	WBGene00003024	locus:lin-39	Homeobox protein lin-39	status:Confirmed	UniProt:P34684	protein_id:CCD63
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   40.3   0.3   7.8e-13   2.8e-10       8      69 ..     165     226 ..     160     235 .. 0.92
+
+  Alignments for each domain:
+  == domain 1  score: 40.3 bits;  conditional E-value: 7.8e-13
+  hox_meta_genes_master.fas.egl-5   8 skkgrqtyqryqtSVLEskFqQSSYVskkQREELRLQTnLtDRQIKIwfqnrrmkakkekqr 69 
+                                      +k++r+ y+r q   LE++F    Y  +k R E      Lt RQ+KIwfqnrrmk+kke++ 
+                          C07H6.7 165 EKRQRTAYTRNQVLELEKEFHTHKYLTRKRRIEVAHSLMLTERQVKIWFQNRRMKHKKENKD 226
+                                      5788999999**99********************************************9876 PP
+
+>> F46F3.1b  CE46770	WBGene00000449	locus:ceh-27	status:Confirmed	UniProt:H2L2F8	protein_id:CCE72135.1
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   39.8   2.2   1.1e-12   3.9e-10       8      71 ..       5      68 ..       1      75 [. 0.89
+
+  Alignments for each domain:
+  == domain 1  score: 39.8 bits;  conditional E-value: 1.1e-12
+  hox_meta_genes_master.fas.egl-5  8 skkgrqtyqryqtSVLEskFqQSSYVskkQREELRLQTnLtDRQIKIwfqnrrmkakkekqrve 71
+                                      +k r   +  q  VLE kFq   Y s   RE L    nL+  Q+KIwfqn+r k k+++++ +
+                         F46F3.1b  5 RRKRRVLFSPQQVHVLERKFQINRYLSAADRENLAKSINLSATQVKIWFQNQRYKCKRQEKEKK 68
+                                     5677778888999******************************************998877654 PP
+
+>> F29F11.5b  CE40611	WBGene00000445	locus:ceh-22	status:Confirmed	UniProt:A1EHR3	protein_id:CAL90891.1
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   37.9   1.3   4.2e-12   1.5e-09       7      68 ..      57     118 ..      53     130 .. 0.90
+
+  Alignments for each domain:
+  == domain 1  score: 37.9 bits;  conditional E-value: 4.2e-12
+  hox_meta_genes_master.fas.egl-5   7 sskkgrqtyqryqtSVLEskFqQSSYVskkQREELRLQTnLtDRQIKIwfqnrrmkakkekq 68 
+                                      +++k r   ++ qt  LE +F+   Y s   RE L +Q  Lt  Q+KIwfqn+r k+kk+++
+                        F29F11.5b  57 KKRKRRVLFTKAQTYELERRFRSQKYLSAPEREALAMQIRLTPTQVKIWFQNHRYKTKKSHT 118
+                                      566778888999*********************************************99876 PP
+
+>> F46F3.1a  CE36695	WBGene00000449	locus:ceh-27	status:Partially_confirmed	UniProt:Q9XVN4	protein_id:CAB03112.3
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   37.7   4.0     5e-12   1.8e-09       5      71 ..      95     161 ..      91     168 .. 0.88
+
+  Alignments for each domain:
+  == domain 1  score: 37.7 bits;  conditional E-value: 5e-12
+  hox_meta_genes_master.fas.egl-5   5 yasskkgrqtyqryqtSVLEskFqQSSYVskkQREELRLQTnLtDRQIKIwfqnrrmkakkekqrve 71 
+                                      + s +k r   +  q  VLE kFq   Y s   RE L    nL+  Q+KIwfqn+r k k+++++ +
+                         F46F3.1a  95 MISRRKRRVLFSPQQVHVLERKFQINRYLSAADRENLAKSINLSATQVKIWFQNQRYKCKRQEKEKK 161
+                                      556677888889999*******************************************998877654 PP
+
+>> F29F11.5c  CE40612	WBGene00000445	locus:ceh-22	status:Partially_confirmed	UniProt:A1EHR4	protein_id:CAL90892.1
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   37.1   1.4   7.5e-12   2.7e-09       7      68 ..     125     186 ..     121     197 .. 0.90
+
+  Alignments for each domain:
+  == domain 1  score: 37.1 bits;  conditional E-value: 7.5e-12
+  hox_meta_genes_master.fas.egl-5   7 sskkgrqtyqryqtSVLEskFqQSSYVskkQREELRLQTnLtDRQIKIwfqnrrmkakkekq 68 
+                                      +++k r   ++ qt  LE +F+   Y s   RE L +Q  Lt  Q+KIwfqn+r k+kk+++
+                        F29F11.5c 125 KKRKRRVLFTKAQTYELERRFRSQKYLSAPEREALAMQIRLTPTQVKIWFQNHRYKTKKSHT 186
+                                      566778888999*********************************************99876 PP
+
+>> F29F11.5a  CE05771	WBGene00000445	locus:ceh-22	Homeobox protein ceh-22	status:Confirmed	UniProt:P41936	protein_id:CAA
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   36.7   1.4   1.1e-11   3.7e-09       7      68 ..     188     249 ..     184     260 .. 0.90
+
+  Alignments for each domain:
+  == domain 1  score: 36.7 bits;  conditional E-value: 1.1e-11
+  hox_meta_genes_master.fas.egl-5   7 sskkgrqtyqryqtSVLEskFqQSSYVskkQREELRLQTnLtDRQIKIwfqnrrmkakkekq 68 
+                                      +++k r   ++ qt  LE +F+   Y s   RE L +Q  Lt  Q+KIwfqn+r k+kk+++
+                        F29F11.5a 188 KKRKRRVLFTKAQTYELERRFRSQKYLSAPEREALAMQIRLTPTQVKIWFQNHRYKTKKSHT 249
+                                      566778888999*********************************************99876 PP
+
+>> M142.4  CE12432	WBGene00006873	locus:vab-7	Homeobox protein vab-7	status:Confirmed	UniProt:Q93899	protein_id:CAA97809
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   34.2   0.1   6.2e-11   2.2e-08       8      66 ..      68     126 ..      62     130 .. 0.91
+
+  Alignments for each domain:
+  == domain 1  score: 34.2 bits;  conditional E-value: 6.2e-11
+  hox_meta_genes_master.fas.egl-5   8 skkgrqtyqryqtSVLEskFqQSSYVskkQREELRLQTnLtDRQIKIwfqnrrmkakke 66 
+                                      +++ r+  +r q   LE +F    YVs+k R EL    nL    IK+wfqnrrmk k++
+                           M142.4  68 MRRYRTAFSREQIGRLEREFAKENYVSRKTRGELAAELNLPEGTIKVWFQNRRMKDKRQ 126
+                                      56678888999999*****************************************9976 PP
+
+>> R03C1.3b  CE33290	WBGene00000584	locus:cog-1	status:Confirmed	UniProt:G5EGF2	protein_id:CAD62039.1
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   32.3   1.3   2.4e-10   8.4e-08       6      69 ..      17      80 ..      12      89 .. 0.90
+
+  Alignments for each domain:
+  == domain 1  score: 32.3 bits;  conditional E-value: 2.4e-10
+  hox_meta_genes_master.fas.egl-5  6 asskkgrqtyqryqtSVLEskFqQSSYVskkQREELRLQTnLtDRQIKIwfqnrrmkakkekqr 69
+                                     +++k+ r t +  q   LE kF Q  Y     R  L    n++  Q+K+wfqnrr+k +k++  
+                         R03C1.3b 17 MQKKQSRPTFTGHQIYQLERKFEQTKYLAGADRAQLAQELNMSESQVKVWFQNRRTKWRKKEAA 80
+                                     6788999999999********************************************9987765 PP
+
+>> R13A5.5  CE28767	WBGene00000437	locus:ceh-13	Homeobox protein ceh-13	status:Confirmed	UniProt:P17488	protein_id:CCD63
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   31.5   3.3   4.4e-10   1.5e-07      10      71 ..     116     177 ..     107     187 .. 0.86
+
+  Alignments for each domain:
+  == domain 1  score: 31.5 bits;  conditional E-value: 4.4e-10
+  hox_meta_genes_master.fas.egl-5  10 kgrqtyqryqtSVLEskFqQSSYVskkQREELRLQTnLtDRQIKIwfqnrrmkakkekqrve 71 
+                                      ++r++ ++ q   LE++F    YV +  R E+    +L   Q+KIwfqnrrmk+kk++++  
+                          R13A5.5 116 TNRTNFTTHQLTELEKEFHTAKYVNRTRRTEIASNLKLQEAQVKIWFQNRRMKEKKREKEKA 177
+                                      5677788899999*****************************************99887655 PP
+
+>> F33D11.4  CE09894	WBGene00000436	locus:ceh-12	Homeobox protein ceh-12	status:Partially_confirmed	UniProt:P17487	prote
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   31.9   2.9   3.3e-10   1.2e-07       3      66 ..     105     168 ..     103     178 .. 0.86
+
+  Alignments for each domain:
+  == domain 1  score: 31.9 bits;  conditional E-value: 3.3e-10
+  hox_meta_genes_master.fas.egl-5   3 pnyasskkgrqtyqryqtSVLEskFqQSSYVskkQREELRLQTnLtDRQIKIwfqnrrmkakke 66 
+                                      + + ++++ r+  ++ q   LE++F    Y s+  R  L  Q  L+  QIKIwfqnrrmk+k+ 
+                         F33D11.4 105 QAWGKMRRPRTAFSSEQLVQLEKQFSDNRYLSRPRRYQLAQQLSLSETQIKIWFQNRRMKNKRC 168
+                                      55556666677778888889****************************************9976 PP
+
+>> K03A11.3  CE42603	WBGene00000450	locus:ceh-28	status:Partially_confirmed	UniProt:G5EE18	protein_id:CAB00867.4
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   30.7   5.5   7.8e-10   2.8e-07       5      70 ..     101     166 ..      97     176 .. 0.88
+
+  Alignments for each domain:
+  == domain 1  score: 30.7 bits;  conditional E-value: 7.8e-10
+  hox_meta_genes_master.fas.egl-5   5 yasskkgrqtyqryqtSVLEskFqQSSYVskkQREELRLQTnLtDRQIKIwfqnrrmkakkekqrv 70 
+                                      +++++k r   ++ q   LE++F+   YV    REEL     Lt  Q+KIwfqnrr k k+  q  
+                         K03A11.3 101 QQQKRKPRVLFTQHQVNELEERFKKQRYVTATEREELAQCLGLTATQVKIWFQNRRYKCKRLAQDR 166
+                                      567778888899999999********************99******************99877765 PP
+
+>> F58E6.10d  CE48350	WBGene00006778	locus:unc-42	status:Partially_confirmed	UniProt:N1NVB9	protein_id:CCW45994.1
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   30.8   0.7   7.2e-10   2.6e-07       7      73 ..      33      99 ..      28     105 .. 0.89
+
+  Alignments for each domain:
+  == domain 1  score: 30.8 bits;  conditional E-value: 7.2e-10
+  hox_meta_genes_master.fas.egl-5  7 sskkgrqtyqryqtSVLEskFqQSSYVskkQREELRLQTnLtDRQIKIwfqnrrmkakkekqrvedh 73
+                                       +++r+t ++ q   L++ Fq S Y   + REEL   T+L    I +wfqnrr k++k++++ ++ 
+                        F58E6.10d 33 ARRRHRTTFTQEQLQELDAAFQKSHYPDIYVREELARITKLNEARIQVWFQNRRAKHRKHEKQLNKA 99
+                                     5667888999999999*****************************************9998887765 PP
+
+>> C34C6.8  CE08568	WBGene00000432	locus:ceh-7	Homeobox protein ceh-7	status:Confirmed	UniProt:P20270	protein_id:CAA9126
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   31.1   1.2   5.9e-10   2.1e-07      10      68 ..      25      83 ..      17      84 .] 0.89
+
+  Alignments for each domain:
+  == domain 1  score: 31.1 bits;  conditional E-value: 5.9e-10
+  hox_meta_genes_master.fas.egl-5 10 kgrqtyqryqtSVLEskFqQSSYVskkQREELRLQTnLtDRQIKIwfqnrrmkakkekq 68
+                                     + r+t +  q   LE  F QS YV    RE L     L   Q+KIwfqnrr+++++e +
+                          C34C6.8 25 RRRTTFTVEQLYLLEMYFAQSQYVGCDERERLARILSLDEYQVKIWFQNRRIRMRREAN 83
+                                     5677888899999*******************99999**************99988865 PP
+
+>> C38D4.6c  CE44166	WBGene00003912	locus:pal-1	Homeobox protein pal-1	status:Confirmed	UniProt:P34766	protein_id:CBG227
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   31.3   3.6     5e-10   1.8e-07       7      70 ..     157     220 ..     151     222 .] 0.92
+
+  Alignments for each domain:
+  == domain 1  score: 31.3 bits;  conditional E-value: 5e-10
+  hox_meta_genes_master.fas.egl-5   7 sskkgrqtyqryqtSVLEskFqQSSYVskkQREELRLQTnLtDRQIKIwfqnrrmkakkekqrv 70 
+                                      +  k r+ y+ yq   LE++F  S ++    +  L     Lt RQIKIwfqnrr k ++ kq++
+                         C38D4.6c 157 TADKYRMVYSDYQRLELEKEFHTSPFITSDRKSQLSTMLSLTERQIKIWFQNRRAKDRRDKQKI 220
+                                      6678999*************************************************99999875 PP
+
+>> C02F12.10  CE40680	WBGene00045215	locus:ceh-63	status:Confirmed	UniProt:A3FPJ2	protein_id:CCD62377.1
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   30.5   1.2   8.9e-10   3.2e-07       8      74 ..      41     107 ..      35     114 .. 0.86
+
+  Alignments for each domain:
+  == domain 1  score: 30.5 bits;  conditional E-value: 8.9e-10
+  hox_meta_genes_master.fas.egl-5   8 skkgrqtyqryqtSVLEskFqQSSYVskkQREELRLQTnLtDRQIKIwfqnrrmkakkekqrvedht 74 
+                                        ++r+t ++ q   LE +F    Y+ k  R EL    +Lt  Q+K wfqnrr+k+++ ++  ++++
+                        C02F12.10  41 RPTKRTTFTSEQVTLLELEFAKNEYICKDRRGELAQTIELTECQVKTWFQNRRTKKRRCTSPLRKSM 107
+                                      5678899999************************9888****************9988777666555 PP
+
+>> F58E6.10a  CE39164	WBGene00006778	locus:unc-42	status:Partially_confirmed	UniProt:G5EBS8	protein_id:CAA94780.3
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   30.2   0.7   1.1e-09   3.9e-07       7      73 ..      84     150 ..      79     156 .. 0.89
+
+  Alignments for each domain:
+  == domain 1  score: 30.2 bits;  conditional E-value: 1.1e-09
+  hox_meta_genes_master.fas.egl-5   7 sskkgrqtyqryqtSVLEskFqQSSYVskkQREELRLQTnLtDRQIKIwfqnrrmkakkekqrvedh 73 
+                                        +++r+t ++ q   L++ Fq S Y   + REEL   T+L    I +wfqnrr k++k++++ ++ 
+                        F58E6.10a  84 ARRRHRTTFTQEQLQELDAAFQKSHYPDIYVREELARITKLNEARIQVWFQNRRAKHRKHEKQLNKA 150
+                                      5567888999999999*****************************************9998887765 PP
+
+>> C13G5.1  CE37477	WBGene00000439	locus:ceh-16	Homeobox protein engrailed-like ceh-16	status:Confirmed	UniProt:P34326	p
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   30.5   0.6   8.5e-10     3e-07      15      72 ..      94     151 ..      82     159 .. 0.84
+
+  Alignments for each domain:
+  == domain 1  score: 30.5 bits;  conditional E-value: 8.5e-10
+  hox_meta_genes_master.fas.egl-5  15 yqryqtSVLEskFqQSSYVskkQREELRLQTnLtDRQIKIwfqnrrmkakkekqrved 72 
+                                       +  q   L  +F+ S Y   k R EL     L   QIKIwfqn+r k kk++++v +
+                          C13G5.1  94 FTGDQLDRLKTEFRESRYLTEKRRQELAHELGLNESQIKIWFQNKRAKLKKSTSSVPR 151
+                                      55556667899****************************************9887755 PP
+
+>> F31E8.3  CE01930	WBGene00006380	locus:tab-1	status:Partially_confirmed	UniProt:Q19937	protein_id:CCD62854.1
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   30.1   1.4   1.2e-09   4.1e-07       7      73 ..     119     185 ..     114     192 .. 0.89
+
+  Alignments for each domain:
+  == domain 1  score: 30.1 bits;  conditional E-value: 1.2e-09
+  hox_meta_genes_master.fas.egl-5   7 sskkgrqtyqryqtSVLEskFqQSSYVskkQREELRLQTnLtDRQIKIwfqnrrmkakkekqrvedh 73 
+                                      s +k r+  +  q   LE +F    Y s+  R EL    nL+  Q+K wfqnrrmk+kk  ++ +++
+                          F31E8.3 119 SRRKARTVFSDQQLQGLERRFESQRYLSTPERIELANALNLSETQVKTWFQNRRMKHKKVVRKDDNS 185
+                                      5677888889999999******************************************998877765 PP
+
+>> C38D4.6b  CE05383	WBGene00003912	locus:pal-1	Homeobox protein pal-1	status:Confirmed	UniProt:P34766	protein_id:CAH190
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   30.8   3.6   7.1e-10   2.5e-07       7      70 ..     203     266 ..     197     268 .] 0.92
+
+  Alignments for each domain:
+  == domain 1  score: 30.8 bits;  conditional E-value: 7.1e-10
+  hox_meta_genes_master.fas.egl-5   7 sskkgrqtyqryqtSVLEskFqQSSYVskkQREELRLQTnLtDRQIKIwfqnrrmkakkekqrv 70 
+                                      +  k r+ y+ yq   LE++F  S ++    +  L     Lt RQIKIwfqnrr k ++ kq++
+                         C38D4.6b 203 TADKYRMVYSDYQRLELEKEFHTSPFITSDRKSQLSTMLSLTERQIKIWFQNRRAKDRRDKQKI 266
+                                      6678999*************************************************99999875 PP
+
+>> C38D4.6a  CE27837	WBGene00003912	locus:pal-1	Homeobox protein pal-1	status:Confirmed	UniProt:P34766	protein_id:CAA863
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   30.8   3.6   7.2e-10   2.6e-07       7      70 ..     205     268 ..     199     270 .] 0.92
+
+  Alignments for each domain:
+  == domain 1  score: 30.8 bits;  conditional E-value: 7.2e-10
+  hox_meta_genes_master.fas.egl-5   7 sskkgrqtyqryqtSVLEskFqQSSYVskkQREELRLQTnLtDRQIKIwfqnrrmkakkekqrv 70 
+                                      +  k r+ y+ yq   LE++F  S ++    +  L     Lt RQIKIwfqnrr k ++ kq++
+                         C38D4.6a 205 TADKYRMVYSDYQRLELEKEFHTSPFITSDRKSQLSTMLSLTERQIKIWFQNRRAKDRRDKQKI 268
+                                      6678999*************************************************99999875 PP
+
+>> M6.3  CE37657	WBGene00004011	locus:pha-2	status:Confirmed	UniProt:Q21578	protein_id:CCD69443.1
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   30.2   0.7   1.1e-09     4e-07       7      74 ..      75     142 ..      69     148 .. 0.86
+
+  Alignments for each domain:
+  == domain 1  score: 30.2 bits;  conditional E-value: 1.1e-09
+  hox_meta_genes_master.fas.egl-5   7 sskkgrqtyqryqtSVLEskFqQSSYVskkQREELRLQTnLtDRQIKIwfqnrrmkakkekqrvedht 74 
+                                      + k g+   ++ qt  LE+kF    Y s + R  L     L+ RQ+K wfqnrr k ++ ++  ed+ 
+                             M6.3  75 KRKGGQIRFTNEQTDALEHKFDSHKYLSPQERKKLAKSLSLSERQVKTWFQNRRAKWRRVRKDGEDED 142
+                                      455666778899********************************************998877776665 PP
+
+>> F58E6.10e  CE48409	WBGene00006778	locus:unc-42	status:Partially_confirmed	UniProt:N1NSG8	protein_id:CCW45996.1
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   29.5   2.1   1.7e-09   6.2e-07       6      73 ..      47     114 ..      42     120 .. 0.89
+
+  Alignments for each domain:
+  == domain 1  score: 29.5 bits;  conditional E-value: 1.7e-09
+  hox_meta_genes_master.fas.egl-5   6 asskkgrqtyqryqtSVLEskFqQSSYVskkQREELRLQTnLtDRQIKIwfqnrrmkakkekqrvedh 73 
+                                      +s +++r+t ++ q   L++ Fq S Y   + REEL   T+L    I +wfqnrr k++k++++ ++ 
+                        F58E6.10e  47 NSRRRHRTTFTQEQLQELDAAFQKSHYPDIYVREELARITKLNEARIQVWFQNRRAKHRKHEKQLNKA 114
+                                      56677889999999999*****************************************9998887765 PP
+
+>> R03C1.3a  CE25964	WBGene00000584	locus:cog-1	status:Confirmed	UniProt:G5EGE2	protein_id:CAB05260.2
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   29.2   1.5   2.3e-09   8.2e-07       6      69 ..     167     230 ..     162     238 .. 0.90
+
+  Alignments for each domain:
+  == domain 1  score: 29.2 bits;  conditional E-value: 2.3e-09
+  hox_meta_genes_master.fas.egl-5   6 asskkgrqtyqryqtSVLEskFqQSSYVskkQREELRLQTnLtDRQIKIwfqnrrmkakkekqr 69 
+                                      +++k+ r t +  q   LE kF Q  Y     R  L    n++  Q+K+wfqnrr+k +k++  
+                         R03C1.3a 167 MQKKQSRPTFTGHQIYQLERKFEQTKYLAGADRAQLAQELNMSESQVKVWFQNRRTKWRKKEAA 230
+                                      6788999999999999*****************************************9987654 PP
+
+>> F58E6.10b  CE48141	WBGene00006778	locus:unc-42	status:Partially_confirmed	UniProt:L8E946	protein_id:CCQ25677.1
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   29.0   2.1   2.5e-09     9e-07       6      73 ..      98     165 ..      93     171 .. 0.89
+
+  Alignments for each domain:
+  == domain 1  score: 29.0 bits;  conditional E-value: 2.5e-09
+  hox_meta_genes_master.fas.egl-5   6 asskkgrqtyqryqtSVLEskFqQSSYVskkQREELRLQTnLtDRQIKIwfqnrrmkakkekqrvedh 73 
+                                      +s +++r+t ++ q   L++ Fq S Y   + REEL   T+L    I +wfqnrr k++k++++ ++ 
+                        F58E6.10b  98 NSRRRHRTTFTQEQLQELDAAFQKSHYPDIYVREELARITKLNEARIQVWFQNRRAKHRKHEKQLNKA 165
+                                      56677889999999999*****************************************9998887765 PP
+
+>> R07B1.1  CE01626	WBGene00006881	locus:vab-15	Homeobox protein vab-15	status:Confirmed	UniProt:Q09604	protein_id:CAA88
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   29.1   5.0   2.4e-09   8.6e-07       7      71 ..     128     192 ..     122     202 .. 0.83
+
+  Alignments for each domain:
+  == domain 1  score: 29.1 bits;  conditional E-value: 2.4e-09
+  hox_meta_genes_master.fas.egl-5   7 sskkgrqtyqryqtSVLEskFqQSSYVskkQREELRLQTnLtDRQIKIwfqnrrmkakkekqrve 71 
+                                      +++k r+  ++ q   LE kFq   Y s   R E     +Lt  Q+KIwfqnrr k k+ ++   
+                          R07B1.1 128 NNRKPRTPFSTQQLISLERKFQSKQYLSIAERAEFSASLQLTETQVKIWFQNRRAKSKRLQEAEV 192
+                                      5566677777888888****************************************998766544 PP
+
+>> Y75B8A.2a  CE29009	WBGene00003779	locus:nob-1	status:Confirmed	UniProt:G5EFY5	protein_id:CAA22093.2
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   29.0   1.9   2.6e-09   9.3e-07       3      67 ..     157     221 ..     155     230 .. 0.89
+
+  Alignments for each domain:
+  == domain 1  score: 29.0 bits;  conditional E-value: 2.6e-09
+  hox_meta_genes_master.fas.egl-5   3 pnyasskkgrqtyqryqtSVLEskFqQSSYVskkQREELRLQTnLtDRQIKIwfqnrrmkakkek 67 
+                                         +  kk+rq y++ q S LE ++    Y   k R EL  Q  L  +Q+K+wfq    + + e+
+                        Y75B8A.2a 157 AISHDGKKKRQPYKKDQISRLEYEYSVNQYLTNKRRSELSAQLMLDEKQVKVWFQVCYRQYSAES 221
+                                      5567789************************************************9887776665 PP
+
+>> F55B12.1  CE25006	WBGene00000447	locus:ceh-24	Homeobox protein ceh-24	status:Confirmed	UniProt:Q9NLC2	protein_id:CAB6
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   28.7   3.6   3.2e-09   1.1e-06       5      70 ..     147     212 ..     143     220 .. 0.89
+
+  Alignments for each domain:
+  == domain 1  score: 28.7 bits;  conditional E-value: 3.2e-09
+  hox_meta_genes_master.fas.egl-5   5 yasskkgrqtyqryqtSVLEskFqQSSYVskkQREELRLQTnLtDRQIKIwfqnrrmkakkekqrv 70 
+                                      + + +k r   ++ q   LE +F+Q  Y     RE L     Lt  Q+KIwfqn+r k k+++++ 
+                         F55B12.1 147 MSQRRKRRVLFSQAQVYELERRFKQAKYLTAPEREQLANSIRLTPTQVKIWFQNHRYKCKRQEKEK 212
+                                      667788888899999999****************************************99887654 PP
+
+>> C16C2.1  CE40300	WBGene00000430	locus:ceh-5	Homeobox protein ceh-5	status:Confirmed	UniProt:P20269	protein_id:CAB0274
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   28.9   0.2   2.8e-09     1e-06      12      69 ..      39      96 ..      30     108 .. 0.87
+
+  Alignments for each domain:
+  == domain 1  score: 28.9 bits;  conditional E-value: 2.8e-09
+  hox_meta_genes_master.fas.egl-5 12 rqtyqryqtSVLEskFqQSSYVskkQREELRLQTnLtDRQIKIwfqnrrmkakkekqr 69
+                                     r+  +  q   LE+ F  S Y s   R  L     L+D Q+K+wfqnrr+k+kk  +r
+                          C16C2.1 39 RTVFTDEQLEKLEESFNTSGYLSGSTRAKLAESLGLSDNQVKVWFQNRRTKQKKIDSR 96
+                                     55666677788******************************************98776 PP
+
+>> C28A5.4  CE05325	WBGene00000463	locus:ceh-43	Homeobox protein ceh-43	status:Partially_confirmed	UniProt:Q18273	protei
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   28.6   2.5   3.4e-09   1.2e-06       7      75 ..     101     169 ..      95     174 .. 0.91
+
+  Alignments for each domain:
+  == domain 1  score: 28.6 bits;  conditional E-value: 3.4e-09
+  hox_meta_genes_master.fas.egl-5   7 sskkgrqtyqryqtSVLEskFqQSSYVskkQREELRLQTnLtDRQIKIwfqnrrmkakkekqrvedhte 75 
+                                      +++k r+ y++ q   L +kFq   Y     R  L     L+  Q+KIwfqnrr k+kk+k   +dh +
+                          C28A5.4 101 KMRKPRTIYNSSQLQMLQKKFQKTQYLALPDRAALAHELGLSQTQVKIWFQNRRSKQKKQKGGSSDHAS 169
+                                      6678899999**************************************************998888765 PP
+
+>> W03A3.1  CE07563	WBGene00000435	locus:ceh-10	Homeobox protein ceh-10	status:Confirmed	UniProt:P41935	protein_id:CCD73
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   27.8   2.1     6e-09   2.1e-06       7      74 ..     135     202 ..     130     207 .. 0.88
+
+  Alignments for each domain:
+  == domain 1  score: 27.8 bits;  conditional E-value: 6e-09
+  hox_meta_genes_master.fas.egl-5   7 sskkgrqtyqryqtSVLEskFqQSSYVskkQREELRLQTnLtDRQIKIwfqnrrmkakkekqrvedht 74 
+                                      +++++r+  ++yq   LE+ Fq S Y   + RE L   T+L    I +wfqnrr k +k+++++ ++t
+                          W03A3.1 135 KKRRHRTIFTQYQIDELEKAFQDSHYPDIYAREVLAGKTELQEDRIQVWFQNRRAKWRKTEKTWGKST 202
+                                      55667788999**********************************************99988776655 PP
+
+>> F20D12.6a  CE31687	WBGene00000442	locus:ceh-19	Homeobox protein ceh-19	status:Confirmed	UniProt:P26797	protein_id:CCD
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   28.4   8.0   3.9e-09   1.4e-06       7      70 ..      16      79 ..      10      90 .. 0.88
+
+  Alignments for each domain:
+  == domain 1  score: 28.4 bits;  conditional E-value: 3.9e-09
+  hox_meta_genes_master.fas.egl-5  7 sskkgrqtyqryqtSVLEskFqQSSYVskkQREELRLQTnLtDRQIKIwfqnrrmkakkekqrv 70
+                                      ++k rq y+  q   LE +Fq   Y s   R  L    nLt  QIK wfqnrr+k kk+ ++ 
+                        F20D12.6a 16 CERKPRQAYSARQLDRLETEFQTDKYLSVNKRIQLSQTLNLTETQIKTWFQNRRTKWKKQLTSS 79
+                                     577899*****************************9888******************9987654 PP
+
+>> Y65B4BR.9  CE36343	WBGene00000434	locus:ceh-9	Homeobox protein ceh-9	status:Partially_confirmed	UniProt:P56407	protei
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   28.6   5.6   3.5e-09   1.3e-06       4      72 ..      66     134 ..      63     142 .. 0.90
+
+  Alignments for each domain:
+  == domain 1  score: 28.6 bits;  conditional E-value: 3.5e-09
+  hox_meta_genes_master.fas.egl-5   4 nyasskkgrqtyqryqtSVLEskFqQSSYVskkQREELRLQTnLtDRQIKIwfqnrrmkakkekqrved 72 
+                                      ++++ kk r+t +  q   LE++F    Y s   R EL    + t  Q+KIwfqnrr+k kk +++ e+
+                        Y65B4BR.9  66 QKTKRKKARTTFSGKQVFELEKQFEAKKYLSSSDRSELAKRLDVTETQVKIWFQNRRTKWKKIESEKER 134
+                                      56788999999***************************9999*******************98887765 PP
+
+>> C09G12.1  CE48554	WBGene00015651	locus:ceh-53	status:Confirmed	UniProt:O44462	protein_id:CCD64031.2
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   28.2   4.7   4.5e-09   1.6e-06      10      74 ..      33      97 ..      23     104 .. 0.84
+
+  Alignments for each domain:
+  == domain 1  score: 28.2 bits;  conditional E-value: 4.5e-09
+  hox_meta_genes_master.fas.egl-5 10 kgrqtyqryqtSVLEskFqQSSYVskkQREELRLQTnLtDRQIKIwfqnrrmkakkekqrvedht 74
+                                     + r+  ++ q   LE+ F    Y   +QRE L  QT+L+   I +wf+nrr ka+k++++ ++ +
+                         C09G12.1 33 RLRTAFSENQLELLEEAFLKCQYPDVQQRETLGKQTELAEARIQVWFKNRRAKARKRQRNESTDS 97
+                                     556777889999******************************************99887665544 PP
+
+>> C39E6.4  CE30891	WBGene00003377	locus:mls-2	status:Partially_confirmed	UniProt:Q18533	protein_id:CCD67080.1
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   27.7   8.0   6.4e-09   2.3e-06       4      74 ..     197     267 ..     194     274 .. 0.91
+
+  Alignments for each domain:
+  == domain 1  score: 27.7 bits;  conditional E-value: 6.4e-09
+  hox_meta_genes_master.fas.egl-5   4 nyasskkgrqtyqryqtSVLEskFqQSSYVskkQREELRLQTnLtDRQIKIwfqnrrmkakkekqrvedht 74 
+                                      +++++kk+r+  +r q S LE  F    Y s + R  L     Lt  Q+KIwfqnrr k k++ q+ +++ 
+                          C39E6.4 197 SQNRKKKTRTVFSRSQVSQLEMMFECKRYLSSQERSNLAQKLHLTETQVKIWFQNRRNKFKRQAQTDDTNI 267
+                                      6678999******************************************************9999877665 PP
+
+>> F20D12.6b  CE04436	WBGene00000442	locus:ceh-19	Homeobox protein ceh-19	status:Confirmed	UniProt:P26797	protein_id:CCD
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   26.9   7.9   1.2e-08   4.2e-06       7      70 ..      93     156 ..      87     167 .. 0.88
+
+  Alignments for each domain:
+  == domain 1  score: 26.9 bits;  conditional E-value: 1.2e-08
+  hox_meta_genes_master.fas.egl-5   7 sskkgrqtyqryqtSVLEskFqQSSYVskkQREELRLQTnLtDRQIKIwfqnrrmkakkekqrv 70 
+                                       ++k rq y+  q   LE +Fq   Y s   R  L    nLt  QIK wfqnrr+k kk+ ++ 
+                        F20D12.6b  93 CERKPRQAYSARQLDRLETEFQTDKYLSVNKRIQLSQTLNLTETQIKTWFQNRRTKWKKQLTSS 156
+                                      567899*****************************9888******************9987654 PP
+
+>> ZK993.1b  CE49173	WBGene00022837	locus:ceh-45	status:Confirmed	UniProt:V6CJ20	protein_id:CDK13428.1
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   27.0   3.0   1.1e-08   3.7e-06       5      76 ..      19      92 ..      15      96 .. 0.83
+
+  Alignments for each domain:
+  == domain 1  score: 27.0 bits;  conditional E-value: 1.1e-08
+  hox_meta_genes_master.fas.egl-5  5 yasskk..grqtyqryqtSVLEskFqQSSYVskkQREELRLQTnLtDRQIKIwfqnrrmkakkekqrvedhteh 76
+                                     yas +k  +r+  ++ q  +LE  F    Y     REEL +Q  L    + +wf+nrr k++k+k+  +++++h
+                         ZK993.1b 19 YASRRKrrHRTIFSEEQLNILETTFSTTHYPDATTREELAVQCSLKEERVEVWFKNRRAKERKQKKDDSRTSKH 92
+                                     55544411556678999********************************************9999887776665 PP
+
+>> C33D12.1  CE42831	WBGene00000452	locus:ceh-31	Homeobox protein ceh-31	status:Confirmed	UniProt:Q22910	protein_id:CCD6
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   26.0   0.7   2.2e-08   7.7e-06       7      68 ..      93     154 ..      87     164 .. 0.88
+
+  Alignments for each domain:
+  == domain 1  score: 26.0 bits;  conditional E-value: 2.2e-08
+  hox_meta_genes_master.fas.egl-5   7 sskkgrqtyqryqtSVLEskFqQSSYVskkQREELRLQTnLtDRQIKIwfqnrrmkakkekq 68 
+                                      + +k r+  +  q   LE+ F    Y s + R EL     LtD Q+K w qnrr+k k++ +
+                         C33D12.1  93 KARKARTIFTDKQLQELENTFEKQKYLSVQDRMELAHRMGLTDTQVKTWYQNRRTKWKRQAS 154
+                                      5567777888889999****************************************998765 PP
+
+>> ZK993.1a  CE23489	WBGene00022837	locus:ceh-45	status:Confirmed	UniProt:Q9N4L2	protein_id:CCD73241.1
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   25.6   3.0     3e-08   1.1e-05       5      76 ..     104     177 ..     100     181 .. 0.83
+
+  Alignments for each domain:
+  == domain 1  score: 25.6 bits;  conditional E-value: 3e-08
+  hox_meta_genes_master.fas.egl-5   5 yasskk..grqtyqryqtSVLEskFqQSSYVskkQREELRLQTnLtDRQIKIwfqnrrmkakkekqrvedhteh 76 
+                                      yas +k  +r+  ++ q  +LE  F    Y     REEL +Q  L    + +wf+nrr k++k+k+  +++++h
+                         ZK993.1a 104 YASRRKrrHRTIFSEEQLNILETTFSTTHYPDATTREELAVQCSLKEERVEVWFKNRRAKERKQKKDDSRTSKH 177
+                                      55544411556678999********************************************9999887776665 PP
+
+>> ZK652.5  CE00451	WBGene00000446	locus:ceh-23	Homeobox protein ceh-23	status:Partially_confirmed	UniProt:P34663	protei
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   24.9   5.7   4.9e-08   1.7e-05       4      76 ..     207     279 ..     204     284 .. 0.90
+
+  Alignments for each domain:
+  == domain 1  score: 24.9 bits;  conditional E-value: 4.9e-08
+  hox_meta_genes_master.fas.egl-5   4 nyasskkgrqtyqryqtSVLEskFqQSSYVskkQREELRLQTnLtDRQIKIwfqnrrmkakkekqrvedhteh 76 
+                                      + a+++k r+ y ++qt  LE  F+   YV    RE L     L+  Q++Iwfqnrr k+++++q+ +++t+ 
+                          ZK652.5 207 RAANHRKARTIYGTTQTQQLEDMFKGQMYVVGAERENLAQRLGLSPSQVRIWFQNRRSKHRRKQQEEQQSTTL 279
+                                      56889999*******************************99******************99999988887765 PP
+
+>> C33D12.7  CE42074	WBGene00000451	locus:ceh-30	Homeobox protein ceh-30	status:Confirmed	UniProt:Q22909	protein_id:CCD6
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   24.0   1.0   9.1e-08   3.2e-05       6      68 ..      93     155 ..      89     164 .. 0.91
+
+  Alignments for each domain:
+  == domain 1  score: 24.0 bits;  conditional E-value: 9.1e-08
+  hox_meta_genes_master.fas.egl-5   6 asskkgrqtyqryqtSVLEskFqQSSYVskkQREELRLQTnLtDRQIKIwfqnrrmkakkekq 68 
+                                      ++s+k r+  +  q   LE+ F    Y s + R +L     LtD Q+K w qnrr+k k++ +
+                         C33D12.7  93 KKSRKARTIFTDKQLQELENTFEKQKYLSVQDRMDLAHRMGLTDTQVKTWYQNRRTKWKRQAT 155
+                                      67888999999999999****************************************998876 PP
+
+>> C27A12.5  CE20530	WBGene00000429	locus:ceh-2	status:Confirmed	UniProt:G5ECT8	protein_id:CCD61202.1
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   23.4   0.2   1.5e-07   5.2e-05       8      66 ..     126     184 ..     121     196 .. 0.87
+
+  Alignments for each domain:
+  == domain 1  score: 23.4 bits;  conditional E-value: 1.5e-07
+  hox_meta_genes_master.fas.egl-5   8 skkgrqtyqryqtSVLEskFqQSSYVskkQREELRLQTnLtDRQIKIwfqnrrmkakke 66 
+                                      +k+ r+  +  q   LE+ F    YV    R  L     Lt  Q+K+wfqnrr+k+k+ 
+                         C27A12.5 126 NKRIRTAFSASQLIQLEKAFEGNHYVVGNERKQLAAKLSLTETQVKVWFQNRRTKHKRV 184
+                                      566677777788888****************************************9875 PP
+
+>> F01D4.6c  CE42646	WBGene00003167	locus:mec-3	status:Confirmed	UniProt:B3GWD3	protein_id:CAQ58102.1
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   23.1   0.3   1.7e-07   6.1e-05      11      72 ..     177     238 ..     169     246 .. 0.89
+
+  Alignments for each domain:
+  == domain 1  score: 23.1 bits;  conditional E-value: 1.7e-07
+  hox_meta_genes_master.fas.egl-5  11 grqtyqryqtSVLEskFqQSSYVskkQREELRLQTnLtDRQIKIwfqnrrmkakkekqrved 72 
+                                       r+t ++ q  VL + F      sk  R  L L T L+ R I +wfqnrr k+++ k+ ++ 
+                         F01D4.6c 177 PRTTIKQNQLDVLNEMFSNTPKPSKHARAKLALETGLSMRVIQVWFQNRRSKERRLKHLCNY 238
+                                      57899999*********************************************999988875 PP
+
+>> F01D4.6a  CE27422	WBGene00003167	locus:mec-3	Mechanosensory protein 3	status:Confirmed	UniProt:P09088	protein_id:CAB0
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   22.8   0.3   2.2e-07   7.9e-05      11      72 ..     220     281 ..     212     289 .. 0.89
+
+  Alignments for each domain:
+  == domain 1  score: 22.8 bits;  conditional E-value: 2.2e-07
+  hox_meta_genes_master.fas.egl-5  11 grqtyqryqtSVLEskFqQSSYVskkQREELRLQTnLtDRQIKIwfqnrrmkakkekqrved 72 
+                                       r+t ++ q  VL + F      sk  R  L L T L+ R I +wfqnrr k+++ k+ ++ 
+                         F01D4.6a 220 PRTTIKQNQLDVLNEMFSNTPKPSKHARAKLALETGLSMRVIQVWFQNRRSKERRLKHLCNY 281
+                                      57899999*********************************************999988875 PP
+
+>> R08B4.2  CE03536	WBGene00044330	locus:alr-1	status:Partially_confirmed	UniProt:Q21836	protein_id:CAA92001.1
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   22.6   1.4   2.5e-07   8.9e-05       8      77 ..     117     186 ..     111     190 .. 0.88
+
+  Alignments for each domain:
+  == domain 1  score: 22.6 bits;  conditional E-value: 2.5e-07
+  hox_meta_genes_master.fas.egl-5   8 skkgrqtyqryqtSVLEskFqQSSYVskkQREELRLQTnLtDRQIKIwfqnrrmkakkekqrvedhteht 77 
+                                      +++ r+t +  q   LE+ F    Y     REEL    +Lt   + +wfqnrr k +k++++ ++h  + 
+                          R08B4.2 117 QRRYRTTFSAFQLDELEKVFARTHYPDVFTREELATRVQLTEARVQVWFQNRRAKYRKQERSSTHHPYQA 186
+                                      566788899999999******************************************9999888876655 PP
+
+>> D1007.1  CE09036	WBGene00000440	locus:ceh-17	status:Confirmed	UniProt:G5EC89	protein_id:CCD67311.1
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   22.2   2.0   3.4e-07   0.00012       8      72 ..     149     213 ..     142     222 .. 0.83
+
+  Alignments for each domain:
+  == domain 1  score: 22.2 bits;  conditional E-value: 3.4e-07
+  hox_meta_genes_master.fas.egl-5   8 skkgrqtyqryqtSVLEskFqQSSYVskkQREELRLQTnLtDRQIKIwfqnrrmkakkekqrved 72 
+                                      +++ r+t ++ q   LE  F    Y   + REE+ +  +Lt   + +wfqnrr k +k+++  + 
+                          D1007.1 149 QRRIRTTFTSGQLKELERSFCETHYPDIYTREEIAMRIDLTEARVQVWFQNRRAKYRKQEKIRRV 213
+                                      556677888888999***************************************99887765443 PP
+
+>> R06F6.6  CE01622	WBGene00011069	locus:ceh-62	Uncharacterized homeobox protein R06F6.6	status:Partially_confirmed	UniP
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   21.8   2.9   4.5e-07   0.00016       7      74 ..     129     196 ..     124     203 .. 0.84
+
+  Alignments for each domain:
+  == domain 1  score: 21.8 bits;  conditional E-value: 4.5e-07
+  hox_meta_genes_master.fas.egl-5   7 sskkgrqtyqryqtSVLEskFqQSSYVskkQREELRLQTnLtDRQIKIwfqnrrmkakkekqrvedht 74 
+                                      +s+++r+t +  q   LE+++   SY  +  R  L    +L+  Q+K wfqnrr k k+ +++ + ++
+                          R06F6.6 129 KSRRKRTTFSPEQATRLEAEYIGDSYMAREKRHLLAQSLKLSENQVKTWFQNRRAKDKRDRKSENASN 196
+                                      6778889999999**********************9999****************9988766554433 PP
+
+>> ZK265.4  CE38130	WBGene00000433	locus:ceh-8	Homeobox protein ceh-8	status:Partially_confirmed	UniProt:Q94398	protein_
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   19.8   1.4   1.9e-06   0.00067       7      76 ..      59     129 ..      53     134 .. 0.85
+
+  Alignments for each domain:
+  == domain 1  score: 19.8 bits;  conditional E-value: 1.9e-06
+  hox_meta_genes_master.fas.egl-5   7 sskkgrqtyqryqtSVLEskFqQSSYVskkQREELRLQTnLtDRQIKIwfqnrrmkak.kekqrvedhteh 76 
+                                      +++++r+t ++ q   LE+ F    Y   + RE L    +L    + +wfqnrr k + +ekq ++ +++h
+                          ZK265.4  59 KQRRNRTTFTTFQLHALEAAFDKTHYPDVYARETLAAKVQLPEVRVQVWFQNRRAKFRrQEKQDCQGEEKH 129
+                                      56678899999*******************************************99761566677666655 PP
+
+>> Y80D3A.3  CE24675	WBGene00013583	locus:ceh-51	status:Partially_confirmed	UniProt:Q9U1R1	protein_id:CAB60440.1
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   18.9   2.4   3.8e-06    0.0013      18      75 ..     157     214 ..     141     232 .. 0.82
+
+  Alignments for each domain:
+  == domain 1  score: 18.9 bits;  conditional E-value: 3.8e-06
+  hox_meta_genes_master.fas.egl-5  18 yqtSVLEskFqQSSYVskkQREELRLQTnLtDRQIKIwfqnrrmkakkekqrvedhte 75 
+                                       q   L  +F Q   ++   R  L     L+  QIKIwfqnrr k +kek +  ++  
+                         Y80D3A.3 157 SQLYALRTRFEQCDTIKVDERRKLGAVIGLSPEQIKIWFQNRRFKLRKEKYKQIKQDA 214
+                                      55666788999999999999999999999*****************999987665544 PP
+
+>> F26C11.2  CE01560	WBGene00006744	locus:unc-4	Homeobox protein unc-4	status:Partially_confirmed	UniProt:P29506	protein
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   18.8   0.2   3.8e-06    0.0014       7      73 ..      87     153 ..      82     160 .. 0.85
+
+  Alignments for each domain:
+  == domain 1  score: 18.8 bits;  conditional E-value: 3.8e-06
+  hox_meta_genes_master.fas.egl-5   7 sskkgrqtyqryqtSVLEskFqQSSYVskkQREELRLQTnLtDRQIKIwfqnrrmkakkekqrvedh 73 
+                                      + +++r++ +  q   LEs F  S Y     RE L +  +L    + +wfqnrr k +k++q+ + +
+                         F26C11.2  87 KRRRTRTNFSGWQLEELESAFEASHYPDVFMREALAMRLDLLESRVQVWFQNRRAKWRKREQNRNGS 153
+                                      5556677777788889****************************************99998876655 PP
+
+>> K03E6.1b  CE45007	WBGene00002988	locus:lim-6	status:Partially_confirmed	UniProt:Q21192	protein_id:CCD62868.1
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   18.4   1.8   5.4e-06    0.0019      24      72 ..     202     250 ..     181     257 .. 0.84
+
+  Alignments for each domain:
+  == domain 1  score: 18.4 bits;  conditional E-value: 5.4e-06
+  hox_meta_genes_master.fas.egl-5  24 EskFqQSSYVskkQREELRLQTnLtDRQIKIwfqnrrmkakkekqrved 72 
+                                         F  SS  s+k RE L   T L+ R + +wfqn+r k kk +++ +d
+                         K03E6.1b 202 KTAFERSSKPSRKVREQLANETGLSVRVVQVWFQNQRAKIKKLNKKDSD 250
+                                      56799***********************************998776555 PP
+
+>> K03E6.1a  CE44857	WBGene00002988	locus:lim-6	status:Partially_confirmed	UniProt:G4RV72	protein_id:CCD62867.1
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   18.4   1.8   5.3e-06    0.0019      24      72 ..     202     250 ..     181     257 .. 0.84
+
+  Alignments for each domain:
+  == domain 1  score: 18.4 bits;  conditional E-value: 5.3e-06
+  hox_meta_genes_master.fas.egl-5  24 EskFqQSSYVskkQREELRLQTnLtDRQIKIwfqnrrmkakkekqrved 72 
+                                         F  SS  s+k RE L   T L+ R + +wfqn+r k kk +++ +d
+                         K03E6.1a 202 KTAFERSSKPSRKVREQLANETGLSVRVVQVWFQNQRAKIKKLNKKDSD 250
+                                      56799***********************************998776555 PP
+
+>> T21B4.17  CE38419	WBGene00044032	locus:ceh-99	status:Partially_confirmed	UniProt:Q5FC44	protein_id:CAI46579.2
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !    9.1   0.0    0.0041       1.4       4      63 ..       8      66 ..       5      80 .. 0.88
+   2 !    9.8   0.1    0.0025      0.88      22      69 ..      84     131 ..      75     142 .. 0.89
+
+  Alignments for each domain:
+  == domain 1  score: 9.1 bits;  conditional E-value: 0.0041
+  hox_meta_genes_master.fas.egl-5  4 nyasskkgrqtyqryqtSVLEskFqQSSYVskkQRE.ELRLQTnLtDRQIKIwfqnrrmka 63
+                                     n+++skk+     + ++ +LE++F  S Y  + QR  EL    n+t R +  wf nrr++a
+                         T21B4.17  8 NTKNSKKTAPISAEEKHKILEEEFAKSPY--RGQRNlELCAMFNMTRRRLDAWFYNRRINA 66
+                                     77889999999999***************..567765999999**************9887 PP
+
+  == domain 2  score: 9.8 bits;  conditional E-value: 0.0025
+  hox_meta_genes_master.fas.egl-5  22 VLEskFqQSSYVskkQREELRLQTnLtDRQIKIwfqnrrmkakkekqr 69 
+                                      +LE+ F+   YV +    EL     L  +QI  w ++rr ka+  +++
+                         T21B4.17  84 ILENAFKTHQYVTRELTKELTEKAGLNEKQIWFWYRKRRAKAEAAHKT 131
+                                      89**************************************99887665 PP
+
+>> F27E5.2  CE35862	WBGene00003939	locus:pax-3	status:Partially_confirmed	UniProt:G5ED66	protein_id:CAA88468.2
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   18.3   0.1   5.7e-06     0.002       4      72 ..     183     251 ..     180     257 .. 0.91
+
+  Alignments for each domain:
+  == domain 1  score: 18.3 bits;  conditional E-value: 5.7e-06
+  hox_meta_genes_master.fas.egl-5   4 nyasskkgrqtyqryqtSVLEskFqQSSYVskkQREELRLQTnLtDRQIKIwfqnrrmkakkekqrved 72 
+                                      n ass+++r+  +  q  VLE+ F+   Y     RE +   T L+   I  wf+nrr + +k++ ++++
+                          F27E5.2 183 NDASSRRNRTSFTAEQLDVLENAFRADTYPHANARESISKETGLSEEKIMTWFSNRRARCRKNMPMYQQ 251
+                                      7789999999************************************************99998776665 PP
+
+>> F46C8.5  CE28335	WBGene00000438	locus:ceh-14	Homeobox protein ceh-14	status:Partially_confirmed	UniProt:P20271	protei
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   17.7   0.7   8.4e-06     0.003       8      73 ..     180     245 ..     175     253 .. 0.86
+
+  Alignments for each domain:
+  == domain 1  score: 17.7 bits;  conditional E-value: 8.4e-06
+  hox_meta_genes_master.fas.egl-5   8 skkgrqtyqryqtSVLEskFqQSSYVskkQREELRLQTnLtDRQIKIwfqnrrmkakkekqrvedh 73 
+                                      +k+ r+t +  +   L + +q SS   +  RE L   T L  R + +wfqnrr k+k+ k+   ++
+                          F46C8.5 180 NKRPRTTISAKSLETLKQAYQTSSKPARHVREQLASETGLDMRVVQVWFQNRRAKEKRLKKDAGRR 245
+                                      56667778888888999***************************************9988876555 PP
+
+>> F34D6.2  CE39574	WBGene00018022	locus:ceh-87	status:Partially_confirmed	UniProt:O17184	protein_id:CCD69861.1
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !    9.2   0.1    0.0039       1.4      39      66 ..      44      71 ..      27      78 .. 0.87
+   2 !    8.9   0.1    0.0047       1.7      14      73 ..      79     139 ..      72     146 .. 0.80
+
+  Alignments for each domain:
+  == domain 1  score: 9.2 bits;  conditional E-value: 0.0039
+  hox_meta_genes_master.fas.egl-5 39 EELRLQTnLtDRQIKIwfqnrrmkakke 66
+                                     E L   T ++DRQI ++ q+ r + kk+
+                          F34D6.2 44 EKLVALTGMSDRQIELHLQKYRREDKKN 71
+                                     55666699************99998886 PP
+
+  == domain 2  score: 8.9 bits;  conditional E-value: 0.0047
+  hox_meta_genes_master.fas.egl-5  14 tyqryqtSVLEskFqQSSYVskkQREELRLQTnLtDRQIKIwfqnrrm.kakkekqrvedh 73 
+                                       y+  q+ VL + F   S+ sk     L     Lt  Q+  wf+++r  +a k+++r ++ 
+                          F34D6.2  79 VYTPEQHAVLREGFEHCSWLSKSTLNKLASESGLTRTQVSTWFSKERRvRAGKKSKRSKKI 139
+                                      6778899************************************876650555555554443 PP
+
+>> Y113G7A.6b  CE31091	WBGene00006652	locus:ttx-1	status:Partially_confirmed	UniProt:Q9U2Y9	protein_id:CAB60479.2
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   17.4   0.3     1e-05    0.0037       7      71 ..     145     209 ..     140     217 .. 0.91
+
+  Alignments for each domain:
+  == domain 1  score: 17.4 bits;  conditional E-value: 1e-05
+  hox_meta_genes_master.fas.egl-5   7 sskkgrqtyqryqtSVLEskFqQSSYVskkQREELRLQTnLtDRQIKIwfqnrrmkakkekqrve 71 
+                                      +++++r+t +r q  +LEs F    Y     RE++    +L    + +wf+nrr ka+++k++  
+                       Y113G7A.6b 145 KQRRERTTFTRNQLEILESYFVKTRYPDIFMREDMAHKIQLPESRVQVWFKNRRAKARQQKKTLA 209
+                                      56678999**************************************************9998765 PP
+
+>> Y113G7A.6c  CE43026	WBGene00006652	locus:ttx-1	status:Confirmed	UniProt:B5QSI6	protein_id:CAR64688.1
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   17.3   0.3   1.1e-05     0.004       7      71 ..     161     225 ..     156     233 .. 0.91
+
+  Alignments for each domain:
+  == domain 1  score: 17.3 bits;  conditional E-value: 1.1e-05
+  hox_meta_genes_master.fas.egl-5   7 sskkgrqtyqryqtSVLEskFqQSSYVskkQREELRLQTnLtDRQIKIwfqnrrmkakkekqrve 71 
+                                      +++++r+t +r q  +LEs F    Y     RE++    +L    + +wf+nrr ka+++k++  
+                       Y113G7A.6c 161 KQRRERTTFTRNQLEILESYFVKTRYPDIFMREDMAHKIQLPESRVQVWFKNRRAKARQQKKTLA 225
+                                      56678999**************************************************9998765 PP
+
+>> Y113G7A.6a  CE31090	WBGene00006652	locus:ttx-1	status:Partially_confirmed	UniProt:Q9U2Z0	protein_id:CAB60478.2
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   17.1   0.3   1.3e-05    0.0047       7      71 ..     198     262 ..     193     270 .. 0.91
+
+  Alignments for each domain:
+  == domain 1  score: 17.1 bits;  conditional E-value: 1.3e-05
+  hox_meta_genes_master.fas.egl-5   7 sskkgrqtyqryqtSVLEskFqQSSYVskkQREELRLQTnLtDRQIKIwfqnrrmkakkekqrve 71 
+                                      +++++r+t +r q  +LEs F    Y     RE++    +L    + +wf+nrr ka+++k++  
+                       Y113G7A.6a 198 KQRRERTTFTRNQLEILESYFVKTRYPDIFMREDMAHKIQLPESRVQVWFKNRRAKARQQKKTLA 262
+                                      56678999**************************************************9998765 PP
+
+>> Y53C12C.1  CE14906	WBGene00013147	locus:eyg-1	status:Partially_confirmed	UniProt:O01996	protein_id:CAB09133.1
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   17.3   0.0   1.2e-05    0.0042      11      73 ..     206     268 ..     199     276 .. 0.88
+
+  Alignments for each domain:
+  == domain 1  score: 17.3 bits;  conditional E-value: 1.2e-05
+  hox_meta_genes_master.fas.egl-5  11 grqtyqryqtSVLEskFqQSSYVskkQREELRLQTnLtDRQIKIwfqnrrmkakkekqrvedh 73 
+                                       r+t ++ q   LE+ F    Y s   R +L   TnL    I +wf+nrr k +k++ + +d+
+                        Y53C12C.1 206 SRSTFTNEQLQSLEEVFLRDPYPSPNERADLVKRTNLPEARIQVWFSNRRAKWRKTNANGSDR 268
+                                      577888889999****************************************99998776655 PP
+
+>> F14F3.1a  CE24899	WBGene00006870	locus:vab-3	status:Confirmed	UniProt:G5EDS1	protein_id:CAA90186.2
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 ?    1.9   0.0      0.72   2.5e+02      38      54 ..     135     150 ..     132     159 .. 0.82
+   2 !   13.8   3.8   0.00014      0.05       8      74 ..     217     283 ..     210     289 .. 0.87
+
+  Alignments for each domain:
+  == domain 1  score: 1.9 bits;  conditional E-value: 0.72
+  hox_meta_genes_master.fas.egl-5  38 REELRLQTnLtDRQIKI 54 
+                                      +E   +QT+L DR I+I
+                         F14F3.1a 135 KEQVTMQTELYDR-IRI 150
+                                      68889*******9.666 PP
+
+  == domain 2  score: 13.8 bits;  conditional E-value: 0.00014
+  hox_meta_genes_master.fas.egl-5   8 skkgrqtyqryqtSVLEskFqQSSYVskkQREELRLQTnLtDRQIKIwfqnrrmkakkekqrvedht 74 
+                                       +++r+  +++q   LE++F    Y     RE L    +L    I +wf+nrr k ++e+++ ++++
+                         F14F3.1a 217 LQRNRTSFTQVQIESLEKEFERTHYPDVFARERLAQKIQLPEARIQVWFSNRRAKWRREEKMRNKRS 283
+                                      456778888999999****************************************999887766654 PP
+
+>> B0564.10a  CE05183	WBGene00006766	locus:unc-30	Homeobox protein unc-30	status:Confirmed	UniProt:P52906	protein_id:CAA
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 ?   14.2   0.1   0.00011     0.038       9      69 ..     113     173 ..     107     185 .. 0.85
+
+  Alignments for each domain:
+  == domain 1  score: 14.2 bits;  conditional E-value: 0.00011
+  hox_meta_genes_master.fas.egl-5   9 kkgrqtyqryqtSVLEskFqQSSYVskkQREELRLQTnLtDRQIKIwfqnrrmkakkekqr 69 
+                                      +++r++ ++ q   LE+ F    Y     REE+ +   Lt   +++wf+nrr k +k++++
+                        B0564.10a 113 RRQRTHFTSHQLTELENWFSRNRYPDMACREEIAVWISLTEPRVRVWFKNRRAKWRKRERN 173
+                                      55677788899999***************************************99887654 PP
+
+>> F14F3.1b  CE28216	WBGene00006870	locus:vab-3	status:Confirmed	UniProt:Q95ZV2	protein_id:CAC42287.1
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 ?   15.0   4.0   6.1e-05     0.022       8      74 ..      31      97 ..      24     104 .. 0.87
+
+  Alignments for each domain:
+  == domain 1  score: 15.0 bits;  conditional E-value: 6.1e-05
+  hox_meta_genes_master.fas.egl-5  8 skkgrqtyqryqtSVLEskFqQSSYVskkQREELRLQTnLtDRQIKIwfqnrrmkakkekqrvedht 74
+                                      +++r+  +++q   LE++F    Y     RE L    +L    I +wf+nrr k ++e+++ ++++
+                         F14F3.1b 31 LQRNRTSFTQVQIESLEKEFERTHYPDVFARERLAQKIQLPEARIQVWFSNRRAKWRREEKMRNKRS 97
+                                     456778888999999****************************************999888776655 PP
+
+>> F14F3.1c  CE28217	WBGene00006870	locus:vab-3	status:Confirmed	UniProt:G5EE71	protein_id:CAC42288.1
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 ?   14.7   4.0   7.2e-05     0.026       8      74 ..      58     124 ..      51     131 .. 0.87
+
+  Alignments for each domain:
+  == domain 1  score: 14.7 bits;  conditional E-value: 7.2e-05
+  hox_meta_genes_master.fas.egl-5   8 skkgrqtyqryqtSVLEskFqQSSYVskkQREELRLQTnLtDRQIKIwfqnrrmkakkekqrvedht 74 
+                                       +++r+  +++q   LE++F    Y     RE L    +L    I +wf+nrr k ++e+++ ++++
+                         F14F3.1c  58 LQRNRTSFTQVQIESLEKEFERTHYPDVFARERLAQKIQLPEARIQVWFSNRRAKWRREEKMRNKRS 124
+                                      456778888999999****************************************999888776655 PP
+
+>> B0564.10b  CE36087	WBGene00006766	locus:unc-30	Homeobox protein unc-30	status:Confirmed	UniProt:P52906	protein_id:CAE
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 ?   14.2   0.1   0.00011     0.039       9      69 ..     113     173 ..     107     185 .. 0.85
+
+  Alignments for each domain:
+  == domain 1  score: 14.2 bits;  conditional E-value: 0.00011
+  hox_meta_genes_master.fas.egl-5   9 kkgrqtyqryqtSVLEskFqQSSYVskkQREELRLQTnLtDRQIKIwfqnrrmkakkekqr 69 
+                                      +++r++ ++ q   LE+ F    Y     REE+ +   Lt   +++wf+nrr k +k++++
+                        B0564.10b 113 RRQRTHFTSHQLTELENWFSRNRYPDMACREEIAVWISLTEPRVRVWFKNRRAKWRKRERN 173
+                                      55677788899999***************************************99887654 PP
+
+>> T13C5.4  CE04945	WBGene00020485	locus:ceh-54	status:Partially_confirmed	UniProt:Q22459	protein_id:CCD64555.1
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 ?   -1.0   0.1       5.8   2.1e+03      49      72 ..      13      36 ..      10      44 .. 0.71
+   2 ?   14.7   3.0   7.7e-05     0.027       6      70 ..      42     106 ..      37     116 .. 0.89
+
+  Alignments for each domain:
+  == domain 1  score: -1.0 bits;  conditional E-value: 5.8
+  hox_meta_genes_master.fas.egl-5 49 DRQIKIwfqnrrmkakkekqrved 72
+                                     D   KI+f+ ++ +++k+ +r ++
+                          T13C5.4 13 DILCKIQFNDTQFETTKKITRKRS 36
+                                     555699999988888877766554 PP
+
+  == domain 2  score: 14.7 bits;  conditional E-value: 7.7e-05
+  hox_meta_genes_master.fas.egl-5   6 asskkgrqtyqryqtSVLEskFqQSSYVskkQREELRLQTnLtDRQIKIwfqnrrmkakkekqrv 70 
+                                       ++k++r t    q   +E+ F    Y  +  RE L    +L    + Iwfqnrr k ++e++++
+                          T13C5.4  42 DRKKRNRITFDANQIDEMEKVFAENQYPDTMSREKLANKIQLHEERVQIWFQNRRAKYRREQKQT 106
+                                      56778889999999999****************************************99998876 PP
+
+>> ZC64.4  CE25675	WBGene00002987	locus:lim-4	status:Confirmed	UniProt:G5EEA1	protein_id:CCD71434.1
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 ?   12.7   1.4   0.00031      0.11       4      72 ..     235     303 ..     232     311 .. 0.92
+
+  Alignments for each domain:
+  == domain 1  score: 12.7 bits;  conditional E-value: 0.00031
+  hox_meta_genes_master.fas.egl-5   4 nyasskkgrqtyqryqtSVLEskFqQSSYVskkQREELRLQTnLtDRQIKIwfqnrrmkakkekqrved 72 
+                                      ++a++k+ r+t  + q SVL   F   S       E +   T L+ R   +wfqn+r ++kk +q+ e 
+                           ZC64.4 235 QKAKTKRVRTTFAEDQLSVLQTYFNRDSNPDGADLEKIASMTGLSKRVTQVWFQNSRARQKKWHQKSEG 303
+                                      67889999*****************************************************99998765 PP
+
+>> ZC123.3e  CE49442	WBGene00022518	locus:zfh-2	status:Partially_confirmed	UniProt:V6CLS4	protein_id:CDK13523.1
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 ?    2.5   0.4      0.47   1.7e+02      42      76 ..     265     299 ..     263     324 .. 0.84
+   2 ?    8.7   0.5    0.0057         2      13      75 ..     444     506 ..     432     511 .. 0.81
+   3 ?    1.5   0.0      0.96   3.4e+02      48      74 ..     786     812 ..     782     818 .. 0.83
+
+  Alignments for each domain:
+  == domain 1  score: 2.5 bits;  conditional E-value: 0.47
+  hox_meta_genes_master.fas.egl-5  42 RLQTnLtDRQIKIwfqnrrmkakkekqrvedhteh 76 
+                                      R  T +tD Q+K+  q  +++++ ++ ++++++++
+                         ZC123.3e 265 RARTRITDDQLKVLRQYFNINNSPSEAQIKEMSQK 299
+                                      667999*******9999998888777777766655 PP
+
+  == domain 2  score: 8.7 bits;  conditional E-value: 0.0057
+  hox_meta_genes_master.fas.egl-5  13 qtyqryqtSVLEskFqQSSYVskkQREELRLQTnLtDRQIKIwfqnrrmkakkekqrvedhte 75 
+                                      +  +  q   L + F    Y +    E L    +L+ R I +wfqn r+ka+k  ++  +h++
+                         ZC123.3e 444 TRFTDFQLRTLQQFFDKQAYPKDDDLEALSKKLQLSPRVIVVWFQNARQKARKIYENQPNHES 506
+                                      555666777788888888888888899999999*******************99988888765 PP
+
+  == domain 3  score: 1.5 bits;  conditional E-value: 0.96
+  hox_meta_genes_master.fas.egl-5  48 tDRQIKIwfqnrrmkakkekqrvedht 74 
+                                        R + +wfqn r k++k++  v++ +
+                         ZC123.3e 786 HKRVVQVWFQNARAKERKTRGAVDEDS 812
+                                      568899**********99998887765 PP
+
+>> ZC247.3  CE15150	WBGene00003000	locus:lin-11	Protein lin-11	status:Confirmed	UniProt:P20154	protein_id:CAB02310.1
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 ?   11.1   0.4   0.00097      0.34      35      68 ..     268     301 ..     235     310 .. 0.81
+
+  Alignments for each domain:
+  == domain 1  score: 11.1 bits;  conditional E-value: 0.00097
+  hox_meta_genes_master.fas.egl-5  35 kkQREELRLQTnLtDRQIKIwfqnrrmkakkekq 68 
+                                      +  RE L   T L  R I +wfqnrr k+++ kq
+                          ZC247.3 268 RHIREQLAAETGLNMRVIQVWFQNRRSKERRMKQ 301
+                                      5679************************998887 PP
+
+>> C37E2.5  CE08624	WBGene00000458	locus:ceh-37	Homeobox protein ceh-37	status:Confirmed	UniProt:Q93356	protein_id:CAB02
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 ?   11.2   8.4   0.00091      0.32       7      74 ..      40     107 ..      34     125 .. 0.84
+
+  Alignments for each domain:
+  == domain 1  score: 11.2 bits;  conditional E-value: 0.00091
+  hox_meta_genes_master.fas.egl-5   7 sskkgrqtyqryqtSVLEskFqQSSYVskkQREELRLQTnLtDRQIKIwfqnrrmkakkekqrvedht 74 
+                                      +++++r+ty+r q  +LE  F    Y     RE    Q  L    I +wf+nrr k + ++++  +++
+                          C37E2.5  40 KNRRERTTYSRQQLEILETLFNETQYPDVFARERVADQIRLQESRIQVWFKNRRAKYRLQEKQKPKRS 107
+                                      5677899***********************************************99875544433333 PP
+
+>> C04F1.3  CE17366	WBGene00002989	locus:lim-7	status:Partially_confirmed	UniProt:G5EC36	protein_id:CCD62964.1
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 ?    1.7   0.5      0.84     3e+02      34      60 ..     259     285 ..     253     301 .. 0.80
+   2 ?   11.2   0.7   0.00095      0.34      45      73 ..     302     330 ..     294     338 .. 0.83
+
+  Alignments for each domain:
+  == domain 1  score: 1.7 bits;  conditional E-value: 0.84
+  hox_meta_genes_master.fas.egl-5  34 skkQREELRLQTnLtDRQIKIwfqnrr 60 
+                                      +kk +   R+ T L   Q+KI     +
+                          C04F1.3 259 KKKDKQATRVRTVLNENQLKILRDCYS 285
+                                      67788889*************877655 PP
+
+  == domain 2  score: 11.2 bits;  conditional E-value: 0.00095
+  hox_meta_genes_master.fas.egl-5  45 TnLtDRQIKIwfqnrrmkakkekqrvedh 73 
+                                      T L+ R I++wfqn+r+k kk++ +++++
+                          C04F1.3 302 TGLSARVIRVWFQNKRCKDKKRQIQITEN 330
+                                      89******************998877665 PP
+
+
+
+Internal pipeline statistics summary:
+-------------------------------------
+Query model(s):                              1  (81 nodes)
+Target sequences:                        27319  (12370674 residues searched)
+Passed MSV filter:                       844  (0.0308942); expected 546.4 (0.02)
+Passed bias filter:                      423  (0.0154837); expected 546.4 (0.02)
+Passed Vit filter:                       111  (0.00406311); expected 27.3 (0.001)
+Passed Fwd filter:                        77  (0.00281855); expected 0.3 (1e-05)
+Initial search space (Z):              27319  [actual number of targets]
+Domain search space  (domZ):              77  [number of targets reported over threshold]
+# CPU time: 0.27u 0.10s 00:00:00.37 Elapsed: 00:00:00.14
+# Mc/sec: 7157.32
+//
+[ok]
